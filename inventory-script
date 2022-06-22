@@ -8,7 +8,7 @@
 
 echo " Checking the memory size please wait ... "
 
-sleep 4
+sleep 3
 
 free -m
 
