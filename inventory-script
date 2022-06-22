@@ -14,7 +14,7 @@ free -m
 
 echo " Checking the number of cpu please  ... "
 
-sleep 4
+sleep 3
 
 nproc
 
