@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Author: Caroline
+
+# Date: June 2022
+
+## Script for system inventory
+
+echo " Checking the memory size please wait ... "
+
+sleep 4
+
+free -m
+
+echo " Checking the number of cpu please  ... "
+
+sleep 4
+
+nproc
+
+echo " Checking the system hard please wait ... "
+
+sleep 4
+
+lsblk
+
+echo " Checking what the OS installed "
+
+sleep 4
+
+cat /etc/os-release
