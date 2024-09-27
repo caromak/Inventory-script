@@ -8,13 +8,13 @@
 
 echo " Checking the memory size please wait ... "
 
-sleep 4
+sleep 3
 
 free -m
 
 echo " Checking the number of cpu please  ... "
 
-sleep 4
+sleep 3
 
 nproc
 
